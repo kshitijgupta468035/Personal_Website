@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #66bfbf;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.5rem;
+  margin: 50px 0 0 0;
+}
+
+h2 {
+  color: #63b7af;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.32rem;
+  font-weight: normal;
+  /*line-height: 2;*/
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999e;
+}
+
+a {
+  color: #11999e;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.45rem;
+}
+
+a:hover {
+  color: green;
+}
+
+.top-container {
+  background-color: #d4f3ef;
+  position: relative;
+  padding-top: 100px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+}
+
+.topcloud {
+  position: absolute;
+  right: 350px;
+  top: 30px;
+}
+
+.skill-row {
+  line-height: 2;
+  margin: 50px auto 100px auto;
+  text-align: left;
+  width: 50%
+}
+
+.java {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.python {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+/*.description-java {
+  clear: left;
+}*/
+p {
+  color: #40514E;
+  font-family: 'Nanum Gothic', sans-serif;
+
+  font-size: 1.5rem;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-top-width: 10px;
+  border-color: #ffe0ac;
+  margin: 100px auto;
+  width: 10%
+}
+
+.bottom-container {
+  padding-top: 30px;
+  background-color: #66BFBF;
+  height: 150px;
+
+}
+
+.last {
+  color: #EAF6F6;
+  margin-top: 40px;
+  font-size: 1.8rem;
+}
+
+.footer-link {
+  padding-right: 20px;
+  font-weight: bolder;
+}
+
+.intro {
+  width: 50%;
+  margin: auto;
+  line-height: 2;
+}
+
+.middle-container {
+  margin: 0 auto 0 auto;
+  background-color: #abf0e9;
+  padding-top: 40px;
+}
+
+.edu {
+  width: 50%;
+  margin: auto;
+  line-height: 2;
+}
+
+.skills1 {
+  margin-bottom: 50px;
+}
+
+.button {
+  background: #3D94F6;
+  display: inline-block;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 10px;
+  color: #FFFFFF;
+
+  font-size: 20px;
+  font-weight: 100;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+  margin: 40px;
+  font-family: 'Montserrat', sans-serif
+}
+
+.button:hover {
+  background-color: lightgreen;
+
+}
